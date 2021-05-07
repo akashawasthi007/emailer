@@ -19,8 +19,11 @@ from <a href="https://myaccount.google.com/lesssecureapps?gar=1&pli=1&rapt=AEjHL
 **steps to run**
 
 python manage.py migrate
+
 python manage.py makemigration emailer_app
+
 python manage.py migrate
+
 python manage.py runserver
 
 then copy and paste the localhost link in your browser
