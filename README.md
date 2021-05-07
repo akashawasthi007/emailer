@@ -1,7 +1,4 @@
 # emailer
-
-# emailer
-
 This is a mini project used to send mails one at a time or many.
 
 **prerequisites**
