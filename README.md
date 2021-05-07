@@ -3,6 +3,7 @@
 This is a mini project used to send mails one at a time or many.
 
 **prerequisites**
+
 python3
 django3.2
 
@@ -17,6 +18,7 @@ and at last edit you settings from your email accoun -> set on to allow less sec
 from <a href="https://myaccount.google.com/lesssecureapps?gar=1&pli=1&rapt=AEjHL4MDp9Q9E6GbbXFUBY14Znk6zaNJiEY4DoTFkTYppB2Lt48Du4ze0xj2lQb38cCpfcXZ1NosaClnT2DqFRkHRQNXeJLstg">gmail/login/settings/security/allow_less_secure_apps</a>
 
 **steps to run**
+
 python manage.py migrate
 python manage.py makemigration emailer_app
 python manage.py migrate
