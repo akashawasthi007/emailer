@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+{% extends "emailer_app/base.html" %}
+{% block body_block %}
+<div class="container">
+  <h2 align="center">email are sent by Akash Awasthi</h2>
+  <p><b></b>Note : In case of multiple receivers, provide a comma(,) between various emails.</b></p>
+    <form method="post" enctype="multipart/form-data">
+      {% csrf_token %}
+        {{ form.as_p }}
+      <input type="submit" value="Submit">
+    </form>
+</div>
+{% endblock %}
